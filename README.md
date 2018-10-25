@@ -1,6 +1,9 @@
 This is an attempt to integrate with the [Law Help Interactive][LHI]
-endpoint that will allow us to submit XML data containing a user's
+SOAP endpoint that will allow us to submit XML data containing a user's
 HP Action information and obtain a PDF of the form.
+
+Thankfully, the [zeep][] library makes it easy for us to integrate
+with LHI's SOAP service from Python.
 
 ## Quick start
 
@@ -41,3 +44,4 @@ python3 get_answers_and_documents.py
 [get_answers_and_documents.py]: ./get_answers_and_documents.py
 [lhi-files]: ./lhi-files/
 [LHI integration document]: https://docs.google.com/document/d/1S3On8lTwkUJVtqoI4yaSq4cLuZIfQQVbeVzgQoJN6kI/edit#
+[zeep]: https://python-zeep.readthedocs.io/en/master/
