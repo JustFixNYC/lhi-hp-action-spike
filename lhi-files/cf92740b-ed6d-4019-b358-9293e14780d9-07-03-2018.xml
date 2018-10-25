@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-16" standalone="yes"?>
+<AnswerSet title="New Answer File" version="1.1">
+	<Answer name="(ANSWER FILE DESCRIPTION)" save="false">
+		<TextValue unans="true" />
+	</Answer>
+	<Answer name="(ANSWER FILE HISTORY)" save="false">
+		<TextValue unans="true" />
+	</Answer>
+	<Answer name="Cause of action description TE">
+		<TextValue>my landlord has broken the law by not making repairs to my apartment and I have evidence to show this.</TextValue>
+	</Answer>
+	<Answer name="Conditions complained of TE">
+		<RptValue>
+			<TextValue>There's unhealthy mold and it's making me cough</TextValue>
+			<TextValue>There are rats near the front entrance</TextValue>
+			<TextValue unans="true" />
+		</RptValue>
+	</Answer>
+	<Answer name="Harassment details TE">
+		<TextValue>The landlord has turned off the heat in the winter when I complained about the apartment and requested repairs </TextValue>
+	</Answer>
+	<Answer name="Landlord address city TE">
+		<TextValue>New York</TextValue>
+	</Answer>
+	<Answer name="Landlord address street TE">
+		<TextValue>63 West 127th Street, 1st Floor</TextValue>
+	</Answer>
+	<Answer name="Landlord address zip TE">
+		<TextValue>10027</TextValue>
+	</Answer>
+	<Answer name="Landlord name first TE">
+		<TextValue>Landlord</TextValue>
+	</Answer>
+	<Answer name="Landlord name last TE">
+		<TextValue>McGee</TextValue>
+	</Answer>
+	<Answer name="Server address full HPD TE">
+		<TextValue>63 West 127th Street, New York, NY  10027</TextValue>
+	</Answer>
+	<Answer name="Server address full TE">
+		<TextValue>63 West 127th Street, New York, NY  10027</TextValue>
+	</Answer>
+	<Answer name="Server name full HPD TE">
+		<TextValue>Mirenda Testing</TextValue>
+	</Answer>
+	<Answer name="Server name full TE">
+		<TextValue>Mirenda Testing</TextValue>
+	</Answer>
+	<Answer name="Tenant address city TE">
+		<TextValue>New York</TextValue>
+	</Answer>
+	<Answer name="Tenant address street TE">
+		<TextValue>63 West 127th Street</TextValue>
+	</Answer>
+	<Answer name="Tenant address zip TE">
+		<TextValue>10027</TextValue>
+	</Answer>
+	<Answer name="Tenant child name TE">
+		<RptValue>
+			<TextValue>Baby Testing</TextValue>
+			<TextValue unans="true" />
+		</RptValue>
+	</Answer>
+	<Answer name="Tenant income source TE">
+		<TextValue>employment</TextValue>
+	</Answer>
+	<Answer name="Tenant name first TE">
+		<TextValue>Mirenda</TextValue>
+	</Answer>
+	<Answer name="Tenant name last TE">
+		<TextValue>Testing</TextValue>
+	</Answer>
+	<Answer name="Tenant phone home TE">
+		<TextValue>(212) 551-1212</TextValue>
+	</Answer>
+	<Answer name="Tenant property owned TE">
+		<TextValue>n/a</TextValue>
+	</Answer>
+	<Answer name="Conditions counter NU">
+		<NumValue>-9</NumValue>
+	</Answer>
+	<Answer name="Tenant address floor NU">
+		<NumValue>5</NumValue>
+	</Answer>
+	<Answer name="Tenant children under 6 NU">
+		<NumValue>1</NumValue>
+	</Answer>
+	<Answer name="Tenant income NU">
+		<NumValue>500</NumValue>
+	</Answer>
+	<Answer name="Tenant child DOB">
+		<RptValue>
+			<DateValue>1/1/2017</DateValue>
+			<DateValue unans="true" />
+		</RptValue>
+	</Answer>
+	<Answer name="Fine landlord harassment TF">
+		<TFValue>true</TFValue>
+	</Answer>
+	<Answer name="Management company to be sued TF">
+		<TFValue>false</TFValue>
+	</Answer>
+	<Answer name="More than 2 apartments in building TF">
+		<TFValue>true</TFValue>
+	</Answer>
+	<Answer name="Previous application TF">
+		<TFValue>false</TFValue>
+	</Answer>
+	<Answer name="Prior relief sought TF">
+		<TFValue>false</TFValue>
+	</Answer>
+	<Answer name="Problem is urgent TF">
+		<TFValue>true</TFValue>
+	</Answer>
+	<Answer name="Tenant receives public assistance TF">
+		<TFValue>false</TFValue>
+	</Answer>
+	<Answer name="Action type MS">
+		<MCValue>
+			<SelValue>Repairs</SelValue>
+			<SelValue>Harassment</SelValue>
+			<SelValue>Fee waiver</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Area complained of MC">
+		<RptValue>
+			<MCValue>
+				<SelValue>My apartment</SelValue>
+			</MCValue>
+			<MCValue>
+				<SelValue>Public area</SelValue>
+			</MCValue>
+			<MCValue unans="true" />
+		</RptValue>
+	</Answer>
+	<Answer name="Court county MC">
+		<MCValue>
+			<SelValue>New York</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Court location MC">
+		<MCValue>
+			<SelValue>NY</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Harassment allegations MS">
+		<MCValue>
+			<SelValue>stopped service</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Landlord address state MC">
+		<MCValue>
+			<SelValue>New York</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Landlord entity or individual MC">
+		<MCValue>
+			<SelValue>Individual</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Pay period MC">
+		<MCValue>
+			<SelValue>week</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Prior harassment case MC">
+		<MCValue>
+			<SelValue>No</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Prior repairs case MC">
+		<MCValue>
+			<SelValue>No</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Service method MC">
+		<MCValue>
+			<SelValue>Personal</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Tenant address state MC">
+		<MCValue>
+			<SelValue>New York</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Tenant borough MC">
+		<MCValue>
+			<SelValue>Manhattan</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Tenant repairs allegations MC">
+		<MCValue>
+			<SelValue>Notice issued</SelValue>
+		</MCValue>
+	</Answer>
+	<Answer name="Which room MC">
+		<RptValue>
+			<MCValue>
+				<SelValue>Bathroom</SelValue>
+			</MCValue>
+			<MCValue>
+				<SelValue>Front Entrance</SelValue>
+			</MCValue>
+			<MCValue unans="true" />
+		</RptValue>
+	</Answer>
+</AnswerSet>
