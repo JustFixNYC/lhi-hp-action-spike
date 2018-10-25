@@ -7,7 +7,7 @@ with LHI's SOAP service from Python.
 
 ## Quick start
 
-You will need Python 3 and virtualenv.
+You will need [Python 3][].
 
 First copy `.env.sample` to `.env` and edit it as needed.
 
@@ -40,6 +40,7 @@ python3 get_answers_and_documents.py
 
 * See the [LHI integration document][] for even more details.
 
+[Python 3]: https://www.python.org/
 [LHI]: https://lawhelpinteractive.org/
 [get_answers_and_documents.py]: ./get_answers_and_documents.py
 [lhi-files]: ./lhi-files/
