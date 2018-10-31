@@ -28,7 +28,11 @@ CUSTOMER_KEY = os.environ['LHI_CUSTOMER_KEY']
 # template for which document and answers generates.
 
 # AV: I'm unclear on whether this should just be "5396" or the whole URL.
-TEMPLATE_ID = "https://rebuildqa.lawhelpinteractive.org/Interview/InterviewHome?templateId=5396"
+# Update 10/31/2018: It looks like the endpoint now raises a fault if
+# we provide the ID as a URL, so I guess it's a number we're supposed to provide.
+# A number as a string, that is.
+TEMPLATE_ID = "5396"
+TEMPLATE_URL = f"https://rebuildqa.lawhelpinteractive.org/Interview/InterviewHome?templateId={TEMPLATE_ID}"
 
 # HD Info
 # -------
