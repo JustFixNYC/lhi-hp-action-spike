@@ -31,7 +31,7 @@ CUSTOMER_KEY = os.environ['LHI_CUSTOMER_KEY']
 # Update 10/31/2018: It looks like the endpoint now raises a fault if
 # we provide the ID as a URL, so I guess it's a number we're supposed to provide.
 # A number as a string, that is.
-TEMPLATE_ID = "5396"
+TEMPLATE_ID = "5395"
 TEMPLATE_URL = f"https://rebuildqa.lawhelpinteractive.org/Interview/InterviewHome?templateId={TEMPLATE_ID}"
 
 # HD Info
