@@ -1,4 +1,4 @@
-This is an attempt to integrate with the [Law Help Interactive][LHI]
+This is an attempt to integrate with the [Law Help Interactive (LHI)][LHI]
 SOAP endpoint that will allow us to submit XML data containing a user's
 HP Action information and obtain a PDF of the form.
 
@@ -30,6 +30,19 @@ Then run the tool:
 python3 get_answers_and_documents.py
 ```
 
+### Running the postback server
+
+You can run the postback server with:
+
+```
+flask run
+```
+
+You will probably want to use a service like [ngrok][] to
+create a tunnel that will allow the LHI service to
+access it. Then set the `LHI_POSTBACK_URL` in your
+`.env` file to point at your tunnel URL.
+
 ## Additional resources
 
 * Take a look at [get_answers_and_documents.py][] for more details,
@@ -46,3 +59,4 @@ python3 get_answers_and_documents.py
 [lhi-files]: ./lhi-files/
 [LHI integration document]: https://docs.google.com/document/d/1S3On8lTwkUJVtqoI4yaSq4cLuZIfQQVbeVzgQoJN6kI/edit#
 [zeep]: https://python-zeep.readthedocs.io/en/master/
+[ngrok]: https://ngrok.com/
