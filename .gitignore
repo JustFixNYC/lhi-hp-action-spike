@@ -3,3 +3,6 @@ venv
 .vscode/
 .DS_Store
 __pycache__/
+answer_file.xml
+binary_file.pdf
+post_data.json
